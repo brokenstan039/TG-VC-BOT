@@ -17,11 +17,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", "20632724"))
-API_HASH = getenv("API_HASH", "fcb71f66e685e3ece3c4c36b87ec19de")
+API_ID = int(getenv("API_ID", "17066403"))
+API_HASH = getenv("API_HASH", "a2d657aa05504a1ff984494d2cb1b82e")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "5832760958:AAFnNr5GZN3Ha7WsQVlvn3qdxzsEwC9cRDE")
+BOT_TOKEN = getenv("BOT_TOKEN", "5884212522:AAH9aK2-uTSyxOw0aV-5DN6Z24GBnReexKw")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", mongodb+srv://TITAN:<TITAN>@cluster0.xud0wjz.mongodb.net/?retryWrites=true&w=majority)
@@ -44,7 +44,7 @@ MUSIC_BOT_NAME = getenv("F4R_MUSICAL_GENIUS_BOT")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1780355297").split())
+    map(int, getenv("OWNER_ID", "5700960448").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account

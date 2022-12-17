@@ -48,10 +48,10 @@ OWNER_ID = list(
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
-HEROKU_API_KEY = getenv("1cbfe8fc-0688-4091-b00b-fc6e361aa549")
+HEROKU_API_KEY = getenv("")
 
 # You have to Enter the app name which you gave to identify your  Music Bot in Heroku.
-HEROKU_APP_NAME = getenv("f4rmuicbot")
+HEROKU_APP_NAME = getenv("")
 
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
@@ -61,7 +61,7 @@ UPSTREAM_REPO = getenv(
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
 # GIT TOKEN ( if your edited repo is private)
-GIT_TOKEN = getenv("GIT_TOKEN", None)
+GIT_TOKEN = getenv("GIT_TOKEN", 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)
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
